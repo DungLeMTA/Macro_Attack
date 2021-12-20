@@ -1,0 +1,1 @@
+('B:\\Hack\\Office\\Macro_Attack\\build\\macro_attack\\PYZ-00.pyz', [])

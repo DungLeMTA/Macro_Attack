@@ -1,0 +1,1 @@
+('B:\\Hack\\Office\\Macro_Attack\\build\\target_reverse_tcp\\PYZ-00.pyz', [])
