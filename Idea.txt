@@ -1,0 +1,2 @@
+- Kỹ thuật giấu tin trong ảnh => convert to exe
+- Xử lí đống VBA_code trong content.xml
